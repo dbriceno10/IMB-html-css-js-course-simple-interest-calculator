@@ -17,3 +17,7 @@ h1 {
     border-radius: 25px;
     margin: 0 auto;
 }
+
+.yellow-bc span {
+    background-color: yellow;
+}
