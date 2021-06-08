@@ -1,0 +1,24 @@
+{
+  "name": "imb-html-css-js-course-simple-interest-calculator",
+  "version": "1.0.0",
+  "description": "simple-interest-calculator",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dbriceno10/IMB-html-css-js-course-simple-interest-calculator.git"
+  },
+  "keywords": [
+    "html5",
+    "css",
+    "js"
+  ],
+  "author": "Daniel Briceño <daniel.b10726@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dbriceno10/IMB-html-css-js-course-simple-interest-calculator/issues"
+  },
+  "homepage": "https://github.com/dbriceno10/IMB-html-css-js-course-simple-interest-calculator#readme"
+}
