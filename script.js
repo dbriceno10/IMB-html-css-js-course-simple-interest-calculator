@@ -14,7 +14,7 @@ const compute = () => {
     //Calculate the interest
     const year = new Date().getFullYear() + parseInt(years); 
     //Obtain the year to calculate the interest by means of the Date object
-    if (principal < 0) {
+    if (principal <= 0) {
         alert(`Enter a positive number`)
     } else { //If the amount entered is negative it triggers the alert, otherwise it shows the interest and other values inserting them in the HTML
         result.innerHTML = ""
@@ -24,7 +24,7 @@ const compute = () => {
             at an interest rate of <span>${rate}%</span>.<br>
             You will receive an amount of <span>${interest}</span>,<br>
             in the year <span>${year}</span>.
-        </div>
+        </div><br>
         `
     }
 }
