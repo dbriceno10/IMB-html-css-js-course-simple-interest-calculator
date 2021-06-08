@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Simple Interest Calculato</title>
-    <script src="script.js"></script>
+    <title>Simple Interest Calculator</title>
+    <!-- <script src="script.js"></script> -->
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -23,6 +23,7 @@
                 max="20"
                 step="0.25"
                 value="10.25"
+                onchange="updateRate()"
                 > 
         <span id="rate_val">10.25%</span>
         <br/>
@@ -43,11 +44,12 @@
         
         <br/>
     
-        <button onclick="compute()">Compute </button> <br>
-        Interest : <span id="result"></span><br>
+        <button onclick="compute()">Compute Interest</button> <br>
+        Interest : <span id="result">0</span><br><br>
+        <footer>
+            &#169; This Calculator belongs to --your name--
+        </footer>
     </div>
-    <footer>
-        &#169; This Calculator belongs to --your name--
-    </footer>
+    <script src="./script.js"></script>
 </body>
 </html>
